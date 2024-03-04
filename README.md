@@ -61,7 +61,7 @@ O modelo de machine learning definido para este projeto de Clusterização será
 
 Pelo resultado acima, a quantidade ideal de clusters seria em torno de 5 grupos. Avaliando agora o comportamento das métricas de Silhouette, Davies Bouldin e Calinski Harabasz conforme a variação do número de clusters.
 
-- Tabela de score das métricas de Silhouette, Davies Bouldin e Calinski Harabasz
+- Tabela de score das métricas de Silhouette, Davies Bouldin e Calinski Harabasz:
 
 ![metrics_scores](graph_results/metrics_scores.png)
 
@@ -70,6 +70,8 @@ Avaliando os resultados das métricas acima, optou-se por adotar um número de c
 Além disso, para valores de k acima de 3, a própria interpretabilidade dos resultados ficaria mais dispersa, seria mais difícil encontrar padrões claros que justifiquem dividir os clientes de 3 grupos.
 
 Afim de visualizar os scores de silhouette para cada um dos 3 grupos, plotou-se o gráfico abaixo.
+
+- Gráfico de scores da métrica de Silhouette para cada um dos clusters:
 
 ![silhouette_scores](graph_results/silhouette_scores.png)
 
